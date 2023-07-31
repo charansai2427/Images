@@ -2,9 +2,8 @@ body
 {
 overflow: scroll;
 }
-/* img{
-    margin-top: 1em;
-    margin: 1em;
-   width:35em;
-} */
+.images{
+   min-height: 300px;
+   max-height: 350px;
+}
 

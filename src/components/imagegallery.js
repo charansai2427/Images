@@ -25,7 +25,7 @@ return(
             {
                 data && data.photos.map((e)=>{
                     return(
-                        <img onClick={() => {setcheck(e.src);setShow(true)}} src={e.src.original} style={{ objectFit: "cover" ,width:"600px",marginTop:"5em", margin:'1em'}}/>
+                        <img className="images" onClick={() => {setcheck(e.src);setShow(true)}} src={e.src.original} style={{ objectFit: "cover" ,width:"600px",marginTop:"5em", margin:'1em'}}/>
                     )
                 })
             }
