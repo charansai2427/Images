@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useSelector } from 'react-redux/es/hooks/useSelector';
 import Navbar from './components/navbar';
 function App() {
-  const [ state,setState] = useState("thunderstorm")
+  const [ state,setState] = useState("waterfalls")
 
   return (
     <div className="App">
