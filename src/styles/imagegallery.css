@@ -4,6 +4,8 @@ overflow: scroll;
 }
 .images{
    min-height: 300px;
-   max-height: 420px;
+   max-height: 410px;
+   min-width: 400px;
+   max-width: 600px;
 }
 
